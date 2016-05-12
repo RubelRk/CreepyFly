@@ -19,6 +19,11 @@ public class TimeWait : MonoBehaviour {
 	}
 
 	void Update () {
+
+		if(Input.GetKeyCode(Keycode.P)){
+			time.TimeScale = 0;
+			//paused
+		}
 	
 	}
 }
